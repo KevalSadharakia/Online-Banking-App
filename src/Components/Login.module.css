@@ -1,0 +1,135 @@
+/* Login.module.css */
+
+/* Container */
+.login-container {
+  background: rgba(57, 89, 116, 0.8);
+  box-shadow: 1px 1px 10px 1px #000000, 8px 8px 0px 0px #344454, 12px 12px 10px 0px #000000;
+  max-width: 600px; /* Adjust the max-width for laptop-sized screens */
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+/* Logo */
+.logo {
+  text-align: center;
+  margin: 0 auto;
+  width: 25%;
+  border-radius: 50%;
+  background-color: #344455;
+  padding: 25px;
+  box-shadow: 0px 0px 9px 2px #344454;
+}
+
+.logo .fa {
+  font-size: 50px;
+}
+
+/* Welcome message */
+.welcome {
+  margin: 20px 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+/* Form */
+.login-form {
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Form input */
+.input-lg {
+  font-size: 16px;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgba(40, 52, 67, 0.75);
+  color: #eee;
+  width: 100%;
+  border: none;
+}
+
+/* Input icons */
+.form-group i {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  color: #93a5ab;
+}
+
+/* Submit button */
+.btn-success {
+  background-color: transparent;
+  border: 2px solid #93a5ab;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #93a5ab;
+}
+
+/* Forgot links */
+.forgot-links {
+  color: #ddd;
+  margin-top: 20px;
+}
+
+.forgot-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.forgot-links a:hover {
+  color: #008080;
+}
+
+.divider {
+  margin: 0 10px;
+}
+
+/* Register link */
+.register-link {
+  margin-top: 20px;
+}
+
+.register-link a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+  color: #008080;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1024px) {
+  .login-container {
+    max-width: 90%;
+  }
+
+  .input-lg {
+    font-size: 14px;
+    height: 40px;
+    padding: 8px 16px;
+  }
+
+  .btn-success {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+}
